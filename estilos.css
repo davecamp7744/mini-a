@@ -1,0 +1,36 @@
+body {
+    background: url(img/fondoprincipal.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h3{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.imagen {
+    width: 150px; /* ajusta el tamaño según tus necesidades */
+    margin: 5px;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: steelblue;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
